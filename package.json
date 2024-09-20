@@ -1,0 +1,14 @@
+{
+  "name": "44",
+  "version": "1.0.0",
+  "description": "My Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Got",
+  "license": "ISC",
+  "dependencies": {
+    "mailchecker": "^6.0.9"
+  }
+}
