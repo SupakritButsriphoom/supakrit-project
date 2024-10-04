@@ -39,14 +39,9 @@ function register(email: string, password: string) {
     console.log("Email ไม่ถูกต้อง");
   }
 }
-<<<<<<< HEAD
-// //เรียกใช้ function
-// register("susu@gmail.com", "nahia123456");
-=======
 
 //เรียกใช้ function
 // register("goty@gmail.com", "123456789");
->>>>>>> f0082b16a2bdaf4339916d26a0c7a56b7a2dbb3f
 
 function login(email: string, password: string) {
   if (mailChecker.isValid(email)) {
@@ -54,11 +49,7 @@ function login(email: string, password: string) {
       return Element.email.includes(email);
     });
     if (user.length > 0) {
-<<<<<<< HEAD
-      if (user[0].password === password) {
-=======
       if (decryptionPassword(user[0].password) === password) {
->>>>>>> f0082b16a2bdaf4339916d26a0c7a56b7a2dbb3f
         console.log("เข้าสู่ระบบแล้ว ยินดีต้อนรับ");
       } else {
         console.log("รหัสผ่านไม่ถูกต้อง");
@@ -70,9 +61,6 @@ function login(email: string, password: string) {
     console.log("กรอก email ผิดรูปแบบ");
   }
 }
-<<<<<<< HEAD
-login("kruy@utk.ac.th", "123456789");
-=======
 //เรียกใช้ login
 login("susu@gmail.com", "iloveyou3000");
->>>>>>> f0082b16a2bdaf4339916d26a0c7a56b7a2dbb3f
+//supakrit
